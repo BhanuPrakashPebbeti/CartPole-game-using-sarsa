@@ -8,28 +8,18 @@ SARSA algorithm is a slight variation of the popular Q-Learning algorithm. For a
 
 The difference between these two algorithms is that SARSA chooses an action following the same current policy and updates its Q-values whereas Q-learning chooses the greedy action, that is, the action that gives the maximum Q-value for the state, that is, it follows an optimal policy.
 
-<img src="https://github.com/BhanuPrakashPebbeti/Balancing-Pendulum-with-Q-Learning/blob/main/assets/Q-learning.jfif" width="400" height="150">
+## SARSA Pseudo code
 
-## Important Terms in Q-Learning
-- States: The State, S, represents the current position of an agent in an environment. 
-- Action: The Action, A, is the step taken by the agent when it is in a particular state.
-- Rewards: For every action, the agent will get a positive or negative reward.
-- Episodes: When an agent ends up in a terminating state and can’t take a new action.
-- Q-Values: Used to determine how good an Action, A, taken at a particular state, S, is. Q (A, S)
+<img src="https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/assets/sarsa.png" width="600" height="300">
 
-## Bellman Equation
-The Bellman Equation is used to determine the value of a particular state and deduce how good it is to be in/take that state. This equation is used to update the Q-Table. The optimal state will give us the highest optimal value. 
+## SARSA vs Q-Learning
 
-<img src="https://github.com/BhanuPrakashPebbeti/Balancing-Pendulum-with-Q-Learning/blob/main/assets/bellman-equation.jfif" width="600" height="200">
+<img src="https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/assets/sarsa%20vs%20q.jpg" width="600" height="300">
 
-## Q-Learning Pseudo code
+## Reward Stats while Training SARSA
 
-<img src="https://github.com/BhanuPrakashPebbeti/Balancing-Pendulum-with-Q-Learning/blob/main/assets/Q-Learning%20Psuedo%20code.png" width="600" height="300">
-
-## Reward Stats while Training Double Q-Learning
-
-<img src="https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/Statistics.png" width="400" height="400">
+<img src="https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/sarsa/Statistics.png" width="400" height="400">
 
 ## CartPole 
-![CartPole_gif](https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/CartPole.gif)
+![CartPole_gif](https://github.com/BhanuPrakashPebbeti/Sarsa-Algorithm/blob/main/assets/CartPole.gif)
 
